@@ -23,16 +23,16 @@ export default function Home({
   return (
     <div>
       <SEO />
-      <Navigation />
+      {/* <Navigation /> */}
       <Greetings />
       <Skills />
       {/* <Proficiency /> */}
       {/* <Education /> */}
-      <Experience />
+      {/* <Experience />
       <Feedbacks />
-      <Projects />
-      {showContactUs ? <Contact /> : null}
-      <GithubProfileCard {...githubProfileData} />
+      <Projects /> */}
+      {/* {showContactUs ? <Contact /> : null} */}
+      {/* <GithubProfileCard {...githubProfileData} /> */}
     </div>
   );
 }
