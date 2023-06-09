@@ -1,26 +1,12 @@
-import type { AppProps } from 'next/app'
-
-import { AuthProvider, SaasProvider } from '@saas-ui/react'
-import { Layout } from 'components/layout'
-
-import theme from '../theme'
+import { AppProps } from 'next/app';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/argon-design-system-react.css';
+import '../styles/styles.css';
+import '../styles/vendor/font-awesome/css/font-awesome.min.css';
+import '../styles/vendor/nucleo/css/nucleo.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const { announcement, header, footer } = pageProps
-
-  return (
-    <SaasProvider theme={theme}>
-      <AuthProvider>
-        <Layout
-          announcementProps={announcement}
-          headerProps={header}
-          footerProps={footer}
-        >
-          <Component {...pageProps} />
-        </Layout>
-      </AuthProvider>
-    </SaasProvider>
-  )
+  return <Component {...pageProps} />;
 }
 
-export default MyApp
+export default MyApp;
