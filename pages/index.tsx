@@ -26,8 +26,8 @@ export default function Home({
       <Navigation />
       <Greetings />
       <Skills />
-      <Proficiency />
-      <Education />
+      {/* <Proficiency /> */}
+      {/* <Education /> */}
       <Experience />
       <Feedbacks />
       <Projects />
