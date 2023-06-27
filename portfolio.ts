@@ -28,9 +28,9 @@ export const contact = {};
 
 export const socialLinks: SocialLinksType = {
   url: '',
-  linkedin: '',
-  github: '',
-  instagram: '',
+  linkedin: 'https://www.linkedin.com/in/orkhan-iskenderov-9b911525/',
+  github: 'https://github.com/oiskenderov/python_basics',
+  instagram: '@OrkhanIsr',
   facebook: '',
   twitter: '',
 };
@@ -40,61 +40,7 @@ export const skillsSection: SkillsSectionType = {
   subTitle: '',
   data: [
     {
-      title: 'Full Stack Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
-        ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
-      ],
-      softwareSkills: [
-        {
-          skillName: 'HTML-5',
-          fontAwesomeClassName: 'vscode-icons:file-type-html',
-        },
-        {
-          skillName: 'CSS-3',
-          fontAwesomeClassName: 'vscode-icons:file-type-css',
-        },
-        {
-          skillName: 'JavaScript',
-          fontAwesomeClassName: 'logos:javascript',
-        },
-        {
-          skillName: 'Reactjs',
-          fontAwesomeClassName: 'vscode-icons:file-type-reactjs',
-        },
-        {
-          skillName: 'Nextjs',
-          fontAwesomeClassName: 'vscode-icons:file-type-light-next',
-        },
-        {
-          skillName: 'Python',
-          fontAwesomeClassName: 'logos:python',
-        },
-        {
-          skillName: 'Django',
-          fontAwesomeClassName: 'vscode-icons:file-type-django',
-        },
-
-        {
-          skillName: 'Redux',
-          fontAwesomeClassName: 'logos:redux',
-        },
-        {
-          skillName: 'NPM',
-          fontAwesomeClassName: 'logos:npm-icon',
-        },
-        {
-          skillName: 'Yarn',
-          fontAwesomeClassName: 'logos:yarn',
-        },
-      ],
-    },
-    {
-      title: 'Cloud Infra-Architecture',
+      title: 'DevOp Engeener',
       lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
         emoji('⚡ Experience of working on multiple cloud platforms'),
